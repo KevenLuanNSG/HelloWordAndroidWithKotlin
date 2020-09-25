@@ -16,14 +16,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
-        android:src="@drawable/ic_launcher_background"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
+        android:src="@mipmap/deliveryone"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name of the Application"
+        android:text="Delivery Now"
         android:textSize="20dp"
         android:textStyle="bold"
         android:gravity="center"

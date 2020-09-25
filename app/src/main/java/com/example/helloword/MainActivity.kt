@@ -14,11 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         helloTextView = findViewById<TextView>(R.id.helloTextView)
-        helloTextView!!.text = "Olá ESOFT6S BY KGM"
+        helloTextView!!.text = "Seja bem vindo ao Delivery Now"
 
         helloTextView!!.setOnClickListener {
             Toast.makeText(applicationContext,
-                "Bem vindo ao Android com Kotlin",
+                "Aguarde enquanto o sistema identifica a sua identidade",
                 Toast.LENGTH_LONG).show()
         }
     }
